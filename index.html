@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="getData.php" method="post">
+        <label for="eventName">Name of the event:</label><br>
+       <input type="text" name = "eventName"/><br>
+
+        <label for="when">From when:</label><br>
+       <input type="text" placeholder="Y-m-d H:i" name = "when"/><br>
+
+       <label for="untilWhen">Until when:</label><br>
+       <input type="text" placeholder="Y-m-d H:i" name = "untilWhen"/><br>
+
+        <label for="description">Event description:</label><br>
+        <input type="text" placeholder="Optional" name = "description"/><br>
+
+        <label for="address">Address:</label><br>
+        <input type="text" placeholder="Optional" name = "address"/><br><br>
+
+        <input type="radio" name="linkType" value="google">
+        <label for="html">Google link</label><br>
+
+        <input type="radio" name="linkType" value="yahoo">
+        <label for="css">Yahoo link</label><br>
+
+        <input type="radio" name="linkType" value="webOutlook">
+        <label for="javascript">webOutlook link</label><br>
+
+        <input type="radio" name="linkType" value="ics">
+        <label for="javascript">Ics link</label><br><br>
+
+       <input type="submit">
+    </form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+    "name": "cyoode/calendar",
+    "autoload": {
+        "psr-4": {
+            "Cyoode\\Calendar\\": "src/"
+        }
+    },
+    "require": {
+        "spatie/calendar-links": "^1.6"
+    }
+}
